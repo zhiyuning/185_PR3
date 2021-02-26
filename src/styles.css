@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  height: 45px;
+  line-height: 45px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  margin: 0;
+  width: 100%;
+  min-width: 1024px;
+  height: 48px;
+  max-height: 44px;
+  background: rgba(221, 221, 221, 0.92);
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-left: 60px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Sen", sans-serif;
+  background: #f9f9fa;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 7% auto;
+}
+
+.tab-header {
+  list-style: none;
+  background: #fff;
+  border-radius: 36px;
+  line-height: 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.tab-header li {
+  display: inline;
+  padding: 7px 12px;
+  border-radius: 36px;
+  line-height: 35px;
+
+  cursor: pointer;
+}
+
+.tab-header li.active,
+.tab-header li:hover {
+  background: linear-gradient(
+    to right,
+    red,
+    blue
+  );
+}
+.tab-content {
+  height: 800px;
+  background-image: url("BACKGROUND.jpg");
+  border: 10px solid #dedeed;
+  margin: 12px;
+  width: auto;
+  position: relative;
+}
+
+.tab-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#students td, #students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#students tr:nth-child(even){background-color: #f2f2f2;}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.popWindow {
+    background-color:black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    right: 600px;
+    overflow: auto;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    z-index: 2;
+    position: fixed;
+
+}
+.maskLayer {
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid #888; */
+    /* max-width: 50%; */
+    /* max-height: 50%; */
+    display: inline-block;
+    z-index: 1;
+    position: fixed;
+
+}
