@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-app/static/css/main.84cd6677.chunk.css",
-    "main.js": "/react-app/static/js/main.97a25723.chunk.js",
-    "main.js.map": "/react-app/static/js/main.97a25723.chunk.js.map",
+    "main.js": "/react-app/static/js/main.d36443cd.chunk.js",
+    "main.js.map": "/react-app/static/js/main.d36443cd.chunk.js.map",
     "runtime-main.js": "/react-app/static/js/runtime-main.c4286758.js",
     "runtime-main.js.map": "/react-app/static/js/runtime-main.c4286758.js.map",
     "static/js/2.7c207f69.chunk.js": "/react-app/static/js/2.7c207f69.chunk.js",
@@ -12,12 +12,21 @@
     "index.html": "/react-app/index.html",
     "static/css/main.84cd6677.chunk.css.map": "/react-app/static/css/main.84cd6677.chunk.css.map",
     "static/js/2.7c207f69.chunk.js.LICENSE.txt": "/react-app/static/js/2.7c207f69.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/react-app/static/media/BACKGROUND.3691c2fc.jpg"
+    "static/media/Aerith.4a1a7143.jpg": "/react-app/static/media/Aerith.4a1a7143.jpg",
+    "static/media/styles.css": "/react-app/static/media/BACKGROUND.3691c2fc.jpg",
+    "static/media/Barret.4a76a571.jpg": "/react-app/static/media/Barret.4a76a571.jpg",
+    "static/media/Cloud.af090d5d.jpg": "/react-app/static/media/Cloud.af090d5d.jpg",
+    "static/media/Jess.430e6739.jpg": "/react-app/static/media/Jess.430e6739.jpg",
+    "static/media/Lude.f251aee2.jpg": "/react-app/static/media/Lude.f251aee2.jpg",
+    "static/media/Reno.247a587f.jpg": "/react-app/static/media/Reno.247a587f.jpg",
+    "static/media/Sephiroth.51c0cdd9.jpg": "/react-app/static/media/Sephiroth.51c0cdd9.jpg",
+    "static/media/Tifa.3a6f62ac.jpg": "/react-app/static/media/Tifa.3a6f62ac.jpg",
+    "static/media/V.e97d54ee.mp4": "/react-app/static/media/V.e97d54ee.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.c4286758.js",
     "static/js/2.7c207f69.chunk.js",
     "static/css/main.84cd6677.chunk.css",
-    "static/js/main.97a25723.chunk.js"
+    "static/js/main.d36443cd.chunk.js"
   ]
 }
