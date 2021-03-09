@@ -3,6 +3,7 @@
 
 
 import React from "react";
+import Sample from "./Video/V.mp4"
 
 
 class Video extends React.Component {
@@ -33,19 +34,19 @@ class Video extends React.Component {
     <div>
         <h4>Youtube video does not work, so I use my own videos, which is taken from Hokkadio, Japan</h4>
         <video onClick={this.showVideo} className="videos" width="320" height="240" controls loop>
-            <source src="Video/V.mp4" type="video/mp4"/>
+            <source src={Sample} type="video/mp4"/>
         </video>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <video onClick={this.showVideo} className="videos" width="320" height="240" controls loop>
-            <source src="Video/V.mp4" type="video/mp4"/>
+            <source src={Sample} type="video/mp4"/>
         </video>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <video onClick={this.showVideo} className="videos" width="320" height="240" controls loop>
-            <source src="Video/V.mp4" type="video/mp4"/>
+            <source src={Sample} type="video/mp4"/>
         </video>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <video onClick={this.showVideo} className="videos" width="320" height="240" controls loop>
-            <source src="Video/V.mp4" type="video/mp4"/>
+            <source src={Sample} type="video/mp4"/>
         </video>
     </div>
 

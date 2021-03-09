@@ -1,8 +1,15 @@
 /* global closeImg */
 /* global showImg */
-/* global largePic */
 
 import React from "react";
+import Cloud from "./Resources/Cloud.jpg";
+import Tifa from "./Resources/Tifa.jpg";
+import Aerith from "./Resources/Aerith.jpg";
+import Barret from "./Resources/Barret.jpg";
+import Jess from "./Resources/Jess.jpg";
+import Lude from "./Resources/Lude.jpg";
+import Reno from "./Resources/Reno.jpg";
+import Sephiroth from "./Resources/Sephiroth.jpg";
 
 
 class Image extends React.Component {
@@ -33,21 +40,21 @@ class Image extends React.Component {
 
       const pics =
       <div>
-        <img onClick={this.showImg} src={"./Resources/Cloud.jpg"} alt="HTML5 Icon" width="192" height="100"/>
+        <img onClick={this.showImg} src={Cloud} alt="HTML5 Icon" width="192" height="100"/>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <img onClick={this.showImg} src={"./Resources/Tifa.jpg"} alt="HTML5 Icon" width="192" height="100"/>
+        <img onClick={this.showImg} src={Tifa} alt="HTML5 Icon" width="192" height="100"/>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <img onClick={this.showImg} src={"./Resources/Aerith.jpg"} alt="HTML5 Icon" width="192" height="100"/>
+        <img onClick={this.showImg} src={Aerith} alt="HTML5 Icon" width="192" height="100"/>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <img onClick={this.showImg} src={"./Resources/Barret.jpg"} alt="HTML5 Icon" width="192" height="100"/>
+        <img onClick={this.showImg} src={Barret} alt="HTML5 Icon" width="192" height="100"/>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <img onClick={this.showImg} src={"./Resources/Jess.jpg"} alt="HTML5 Icon" width="192" height="100"/>
+        <img onClick={this.showImg} src={Jess} alt="HTML5 Icon" width="192" height="100"/>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <img onClick={this.showImg} src={"./Resources/Lude.jpg"} alt="HTML5 Icon" width="192" height="100"/>
+        <img onClick={this.showImg} src={Lude} alt="HTML5 Icon" width="192" height="100"/>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <img onClick={this.showImg} src={"./Resources/Reno.jpg"} alt="HTML5 Icon" width="192" height="100"/>
+        <img onClick={this.showImg} src={Reno} alt="HTML5 Icon" width="192" height="100"/>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <img onClick={this.showImg} src={"./Resources/Sephiroth.jpg"} alt="HTML5 Icon" width="192" height="100"/>
+        <img onClick={this.showImg} src={Sephiroth} alt="HTML5 Icon" width="192" height="100"/>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
       </div>
 
